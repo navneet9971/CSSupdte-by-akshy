@@ -14,7 +14,6 @@ function MiddleSection() {
 
 function Fourth() {
   const [videoUrl, setVideoUrl] = useState('');
-  const [isWishlisted, setIsWishlisted] = useState(false);
   const history = useHistory();
 
   useEffect(() => {

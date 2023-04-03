@@ -309,7 +309,6 @@ function DocumentBox() {
 
 function Thirdpage() {
   const [videoUrl, setVideoUrl] = useState('');
-  const [isWishlisted, setIsWishlisted] = useState(false);
   const [buttonPopup2, setButtonPopup2] = useState(false);
 
   useEffect(() => {
@@ -320,26 +319,6 @@ function Thirdpage() {
       })
       .catch(error => console.error(error));
   }, []);
-
-
-  const handleWishlistClick = () => {
-    if (!isWishlisted) {
-      // Add the video to the wishlist
-      const wishlist = JSON.parse(localStorage.getItem('bookmarkItem') || '[]');
-      wishlist.push({ name: 'Video 1', url: videoUrl });
-      localStorage.setItem('bookmarkItem', JSON.stringify(wishlist));
-      setIsWishlisted(true);
-    } else {
-      // Remove the video from the wishlist
-      const wishlist = JSON.parse(localStorage.getItem('bookmarkItem') || '[]');
-      const index = wishlist.findIndex(item => item.url === videoUrl);
-      if (index > -1) {
-        wishlist.splice(index, 1);
-        localStorage.setItem('bookmarkItem', JSON.stringify(wishlist));
-        setIsWishlisted(false);
-      }
-    }
-  };
 
   const notifyData = [
     { "s.no": '1', notifaction: 'Mobile', Date: '2022-02-01', linked: 'In Progress' },
