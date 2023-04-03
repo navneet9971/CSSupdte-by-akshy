@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../bg_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+#root{
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.auth-box {
+  background-image: url("../bg_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.form p {
+  color: white;
+}
+
+.form h2 {
+  font-size: 3rem;
+  font-family: cursive;
+  margin: 45px;
+  color: white;
+}
+
+.form h3 {
+  font-size: 25px;
+  /* margin: 25px; */
+  margin-top: 35px;
+  font-family: sans-serif;
+}
+
+#submit {
+  padding: 8px 20px;
+  width: 25%;
+  margin-top: 35px;
+  background-color: #1d709a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.form a {
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+.efficient {
+  position: relative;
+  bottom: 59px;
+  left: 100px;
+  font-size: 14px;
+}
+
+
+.form a {
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+.p_signup {
+  margin-top: -3%;
+  margin-left: 105px;
+  color: white;
+}
+
+
+/*------------ LOGIN PAGE CSS -------------- */
+.login {
+  display: flex;
+  width: 450px;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+
+.login .top-sec {
+  background: #fff;
+  width: 100%;
+  padding: 2px 0 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login .top-sec p {
+  margin: 40px 0 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.login .top-sec button1 {
+  padding: 4px 15px;
+  background-color: #006091;
+  font-weight: 500;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.login .input-box {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+  background: #006091;
+  color: #fff;
+}
+.login .input-box svg {
+  position: absolute;
+  left: 15px;
+}
+.login .input-box input {
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  background: transparent;
+  padding: 10px 50px;
+  text-align: center;
+  outline-color: #fff;
+}
+
+.login .input-box input::placeholder {
+  color: #fff;
+}
+
+.login button1 {
+  background: #006091;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 6px 25px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+/*------------SINGUP PAGE CSS ------------*/
+.signup {
+  position: relative;
+  display: flex;
+  width: 950px;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-direction: row;
+}
+.signup .left-box {
+  width: 55%;
+  padding: 70px 50px 30px;
+}
+.signup .left-box label {
+  display: block;
+  color: #737373;
+}
+.signup .left-box input {
+  width: 100%;
+  padding: 10px 0 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-weight: 600;
+  border-bottom: 1px solid #9dabae;
+}
+.signup .left-box button {
+  background: #006091;
+  display: block;
+  margin: 20px auto;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.signup .right-box {
+  width: 45%;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .signup .left-box {
+    width: 100%;
+    padding: 50px 20px 30px;
+  }
+  .signup .right-box {
+    display: none;
+  }
+}

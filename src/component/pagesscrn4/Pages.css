@@ -1,0 +1,785 @@
+.first-container22 {
+  background-color: rgb(235, 239, 243);
+  border: 1px solid yellow;
+  width: 700px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 52px 60px 50px 30px;
+  outline: dashed 1px black;
+}
+.first-container22 h30 {
+  font-size: 17px;
+  font-weight: 600;
+  /* position: absolute;
+  top: 8.9em;
+  left: 23em; */
+}
+.first-container22 h31 {
+  font-size: 14px;
+  font-weight: 600;
+  /* position: absolute;
+  top: 12.6em;
+  left: 28em; */
+}
+.first-container22 .form-group22 {
+  font-weight: bold;
+  margin-top: 31px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.first-container22 input[type="text"] {
+  width: calc(100% - 100px);
+  height: 30px;
+  margin: 4px 0 0 -1px;
+  border-radius: 0 5px 5px 0;
+  padding: 2px 7px;
+  border: solid 1px #cbc9c9;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.09);
+  background: #fff;
+}
+.first-container22 .region-group22 {
+  font-weight: bold;
+  padding-left: center;
+  text-align: center;
+  height: 23px;
+}
+.first-container22 select#region-select22 {
+  font-weight: 700;
+  width: 230px;
+  text-align: center;
+  top: 1px;
+  left: -100px;
+}
+.first-container22 select#region-select22 {
+  background-color: #fff;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+/* CSS for button */
+.first-container22 button {
+  background-color: #552700;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 20px auto 0;
+  display: block;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  touch-action: manipulation;
+}
+.first-container22 button:hover,
+.first-container22 button:focus {
+  background-color: rgb(6, 117, 6);
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for screens smaller than 576px */
+  .first-container22 {
+    margin: 120px auto;
+    width: 90%;
+    padding: 20px;
+  }
+  .first-container22 select#region-select22 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .first-container22 button {
+    margin: 20px auto;
+  }
+  .first-container22 input[type="text"] {
+    width: 100%;
+    margin: 4px 0 10px 0;
+    border-radius: 5px;
+  }
+  .first-container22 .form-group {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .first-container22 .region-group22 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .first-container22 button {
+    font-size: 16px;
+    height: 35px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* Styles for screens between 577px and 768px */
+  .first-container22 {
+    margin: 50px auto;
+    width: 90%;
+    padding: 30px;
+  }
+  .first-container22 select#region-select22 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .first-container22 button {
+    margin: 20px auto;
+  }
+  .first-container22 input[type="text"] {
+    width: 100%;
+    margin: 4px 0 10px 0;
+    border-radius: 5px;
+  }
+  .first-container22 .form-group22 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .first-container22 .region-group22 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+
+
+/*---------------Second Page CSS ---------------- */
+.table-container {
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #fff;
+  }
+  
+  h1:hover{
+    color: lightgreen;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th:first-child,
+  td:first-child {
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  tbody tr:hover {
+    background-color: #caf0f5;
+    cursor: pointer;
+  }
+  
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 80px;
+    background-color: #f2f2f2;
+    margin-left: 107px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .play-button:hover{
+    background-color: rgb(248, 204, 204);
+  }
+  
+  .play-button svg {
+    fill: #343a40;
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  button1,
+  button2,
+  button3 {
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  button1,
+  button2,
+  button3 {
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  button1,
+  button2,
+  button3:hover {
+    background-color: #3e8e41;
+  }
+
+
+  /*--------Third Page CSS-----------*/
+  .app55 {
+    display: flex;
+  }
+  
+  .left-section55 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 11em;
+  }
+
+  .center-section55{
+    color:white;
+    font-family: arial;
+    font-size: 24px;
+   
+  }
+  
+  .right-section55 {
+    flex-basis: 25%;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .flex-item {
+    margin: 10px;
+    text-align: center;
+  }
+  .right-section66{
+
+  }
+  .right-section66-links{
+    padding:20px;
+  }
+  .vl {
+    border-left: 1px solid white;
+    min-height:100vh;
+  }
+
+  img55{
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    max-width: 50%;
+  }
+
+  a{
+    display: block;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+  color: skyblue;
+}
+ 
+  .lab-testing-box,
+  .status-box,
+  .document-box, .video-box55 {
+    display: block;
+    min-width:250px;
+    margin:20px;
+    border: 2px solid #ccc;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(238, 230, 230, 0.3);
+  }
+  
+  .lab-testing-box p,
+  .document-box p,
+  .status-box p {
+    margin: 15px 40px;
+    font-size: 14px;
+    color: #f8e9e9;
+  }
+.thirdpagefix{
+  align-items: flex-start!important;
+}
+.thirdpagefix2{
+  display: flex;
+}
+  /*------------WishList Button CSS-------------------*/
+  button.wishlist {
+    position: absolute;
+    top: 32em;
+    left: 88em;
+}
+
+/*----------------Fourth Page CSS------------------*/
+
+button.wishlist1 {
+  position: absolute;
+  top: 25em;
+  left: 88em;
+}
+
+a.notify {
+  position: absolute;
+  top: 8.2em;
+  left: 0.2em;
+}
+
+button10.rdrcbtn {
+  left: 52em;
+}
+
+/* ----------ThirdPage popup lines set css---------- */
+  h90{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  h32{
+    font-size: 22px;
+    font-weight: 600;position: absolute;
+    top: 3px;
+    left: 10px;
+  }
+
+  h98{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:152px;
+  }
+
+  h94{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 70px;
+    left: 337px;
+  }
+.middle-section{
+  min-width: 450px;
+  float:left; 
+  width:250px;
+  color:white;
+  padding:30px;
+}
+.middle-section2{
+  overflow:hidden;
+  color:white;
+  padding:30px;
+  margin-left: 12em;
+  min-height:600px;
+}
+
+  /*---------Thirdpage popup on upload button---------------*/
+  .searchWrapper {
+    border: 1px solid #ccc;
+
+    min-height: 22p;
+    padding: 5px;
+    width: 300px;
+    position: relative;
+}
+
+  input#file-input12 {
+  position: absolute;
+  margin-left: 30px;
+  }
+    input#file-input12::file-selector-button {
+      margin-right: 20px;
+      border: none;
+      background: #084cdf;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: #fff;
+      cursor: pointer;
+      transition: background .2s ease-in-out;
+    }
+    input#file-input12::file-selector-button:hover {
+      background: #0d45a5;
+    }
+
+  /*------------ ThirdPage popup button css ---------------*/
+button8, button8:focus {
+      font-size: 17px;
+      padding: 5px 14px;
+      margin-left: 15px;
+      border-radius: 0.7rem;
+      background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+      border: 2px solid rgb(50, 50, 50);
+      border-bottom: 5px solid rgb(50, 50, 50);
+      box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+      transform: translate(0, -3px);
+      transition: 0.2s;
+      transition-timing-function: linear;
+    }
+    
+    button8:active {
+      transform: translate(0, 0);
+      border-bottom: 2px solid rgb(50, 50, 50);
+    }
+
+    /*------Third page request popup form CSS----------  */
+
+    input#streetAddress {
+      
+  }
+ 
+  input#postalCode {
+  }
+
+input#city {
+ 
+}
+  
+input#contactName {
+  
+}
+
+input#contactNumber {
+ 
+}
+  /*-------------ThirdPage Butoon CSS--------------*/
+  button5,
+  button7,
+  button10{
+    z-index:1;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    margin: 10px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 14px;
+  }
+  
+  button5:focus,
+  button7:focus,
+  button10:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  button5:hover,
+  button7:hover,
+  button10:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  button5:active,
+  button7:active,
+  button10:active  {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+video.videoBox {
+  position: absolute;
+  top: 11em;
+}
+  /*
+  .video-content55 {
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    left: 76%;
+    font-weight: 600;
+  } */
+
+
+/*----- First Page Responsive------------*/
+
+@media screen and (max-width: 576px) {
+  /* Styles for screens smaller than 576px */
+  .first-container22 {
+  margin: 30px auto;
+  width: 90%;
+  padding: 20px;
+  }
+  
+  select#region-select22 {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+  }
+  
+  button {
+  margin: 20px auto;
+  }
+  
+  input[type=text] {
+  width: 100%;
+  margin: 4px 0 10px 0;
+  border-radius: 5px;
+  }
+  
+  .form-group {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  .region-group22 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  button {
+  font-size: 16px;
+  height: 35px;
+  padding: 8px 12px;
+  }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+  /* Styles for screens between 577px and 768px */
+  .first-container22 {
+  margin: 50px auto;
+  width: 90%;
+  padding: 30px;
+  }
+  
+  select#region-select22 {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+  }
+  
+  button {
+  margin: 20px auto;
+  }
+  
+  input[type=text] {
+  width: 100%;
+  margin: 4px 0 10px 0;
+  border-radius: 5px;
+  }
+  
+  .form-group22 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  }
+  
+  .region-group22 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  }
+  }
+
+
+  /*------ThirdPage Responsive-----------*/
+
+  @media only screen and (max-width: 768px) {
+    .video-box {
+      width: 100%;
+      margin: 16px 0 3px;
+    }
+  
+    .video-box video {
+      width: 100%;
+      height: auto;
+    }
+  
+    .video-content {
+      padding: 5px;
+    }
+  
+    .video-content h2 {
+      font-size: 24px;
+      margin: 0 10px 2px;
+    }
+  
+    .video-content p {
+      font-size: 16px;
+      margin: 0 10px;
+    }
+  }
+  
+
+/*------Firstpage fixes Responsive-----------*/
+
+.red-warning {
+  color: red;
+}
+.centerdiv {
+  text-align: center;
+  padding-bottom: 40px;;
+  overflow: hidden;
+}
+.first-container22 select#region-select22 {
+  -webkit-appearance: none;
+  left: 0;
+  width: calc(100% - 100px);
+  height:45px;
+  width: calc(100% - 100px);
+}
+.first-container22 select#region-select22 option {
+  width: 345px!important;
+}
+.gobutton22{
+  margin-top: 70px;
+}
+
+.nav-item{
+  text-align: center;
+  
+}
+.hori-selector .right, .hori-selector .left {
+  bottom: 0;
+}
+#navbarSupportedContent li {
+  text-align: center;;
+  width: 14.28%;
+}
+.nav-btn{
+  z-index:999;
+}
+@media (max-width: 991px) {
+  .nav-btn {
+    margin: 20px auto;
+    margin-left: 20px;
+}
+#navbarSupportedContent li {
+  text-align: center;;
+  width: 100%;
+}
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+  .first-container22 select#region-select22 {
+    width:100%;
+  }
+  .rights .dropdown-btn {
+    width: auto;
+  }
+  
+  .right-section66-links{
+    padding: 5px;
+  }
+  
+  .thirdpagefix2{
+    flex-direction:column;
+  }
+  .vl{
+    display: none;
+   }
+   .main-container{
+    flex-direction: column;
+   }
+   .right-section66{
+    padding: 30px;
+   }
+}
+
+@media screen and (max-width: 576px){
+ 
+  .main-container{
+    flex-direction: column;
+   }
+   .thirdpagefix2{
+    flex-direction:column;
+
+  }
+  .middle-section { 
+    min-width: 250px;
+   float: none;
+   margin-right:0;
+   width:auto;    
+ }
+
+ .vl{
+  display: none;
+ }
+  .first-container22 select#region-select22 {
+    width:100%;
+  }
+  .rights .dropdown-btn {
+    width: auto;
+  }
+}
+
+.main-container{
+  display: flex;
+  overflow: hidden;
+  padding:10px;
+}
